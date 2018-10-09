@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.columnCenter {
+    display: inline-block;
+    padding: 15px;
+}
+
+label {
+    float: left;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+input {
+    width: 65px;
+    height: 45px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+.col {
+    display: inline-block;
+    width: 45%;
+}
+
+p {
+    font-size: 10em;
+}
+
+button.player {
+    min-height: 45px;
+    width: 50%;
+    border: 1px solid grey;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+button.player:hover {
+    background: #c2c8cc;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+button.reset {
+    height: 45px;
+    width: 105px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #adf0c6;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+button.reset:hover {
+    border: 1px solid grey;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.winner {
+    color: #4aba91;
+}
